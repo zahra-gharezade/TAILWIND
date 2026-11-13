@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer components{
+ .haederBtn{
+   @apply w-fit h-fit border border-amber-50/40 rounded-2xl bg-white/15 p-4
+ }
+
+ .boxtexthaeder{
+    @apply w-50 h-20 border border-amber-50/20 rounded-2xl  bg-gray-900 absolute text-white p-4 shadow-2xl
+    duration-500 hover:border-pink-400 hover:shadow-[0_0_15px_1px_pink]
+ }
+
+.number {
+    @apply text-purple-400 text-[25px] w-15 shrink-0;
+}
+
+.toplin {
+    @apply text-[60px] font-bold
+    bg-linear-[90deg,#c084fc,#93c5fd]
+    bg-clip-text text-transparent;
+}
+
+.line {
+    @apply h-1.25 bg-purple-400 flex-1 ms-15
+}
+
+.boxGray{
+  @apply w-full max-w-none lg:w-[200px]
+  h-fit rounded-3xl border border-amber-50
+  bg-gray-800 text-white p-8
+  transition-all duration-500
+  hover:border-purple-400
+  hover:-translate-y-2
+  hover:shadow-[0_0_15px_2px_#c084fc]
+  *:block *:w-full *:text-center *:my-2
+  *:nth-[1]:text-[45px] *:nth-[1]:text-purple-400;
+  
+}
+.codeBox {
+  @apply w-full min-h-75  p-8 rounded-3xl
+  border border-amber-50 bg-gray-800 text-white
+  text-sm overflow-x-auto text-[16px] text-center 
+}
+.seniyorBox{
+    @apply my-7 w-full border-amber-50/40 duration-300 hover:border-purple-600 **:text-start *:nth-[1]:items-center *:nth-[1]:nth-[1]:text-[15px]
+    *:nth-[1]:*:nth-[1]:text-purple-400 *:nth-[1]:*:nth-[2]:text-white *:nth-[1]:*:nth-[2]:p-2 *:nth-[1]:*:nth-[2]:bg-purple-500
+    *:nth-[1]:*:nth-[2]:rounded-full /* 2 */ *:nth-[2]:my-4 *:nth-[2]:text-blue-300 *:nth-[2]:text-[32px]
+    *:nth-[2]:text-start /*3*/ *:nth-[3]:text-purple-500 /*4*/  *:nth-[4]:text-white /* 5 */   *:nth-[5]:bg-gray-950
+     *:nth-[5]:w-full *:nth-[5]:p-10 *:nth-[5]:rounded-2xl *:nth-[5]:border-l-amber-50 *:nth-[5]:border-l
+    *:nth-[5]:my-6 *:nth-[5]:*:text-white *:nth-[5]:*:leading-10 /* 6 */  *:nth-[6]:flex *:nth-[6]:justify-center *:nth-[6]:justify-start *:nth-[6]:w-full
+    w-fit *:nth-[6]:*:p-3 *:nth-[6]:*:rounded-2xl *:nth-[6]:*:bg-gray-950 *:nth-[6]:*:border-amber-50/50 *:nth-[6]:*:border *:nth-[6]:gap-2
+    *:nth-[6]:*:text-[14px]
+
+}
+
+}
+
+
+@layer base{
+     /* body {
+        @apply  font-family: "Playfair", serif;
+    } */
+   
+}
+
+
+@layer utilities{
+    
+    .row{
+        @apply w-full flex flex-wrap
+    }
+    .mypad{
+     @apply px-7.5 xl:px-15
+    }
+    .textlinear{
+     @apply text-transparent bg-clip-text text-[40px] font-bold bg-linear-[90deg,#c084fc,#93c5fd]
+    
+    }
+    .btnHaeder{
+     @apply w-full md:w-50 h-16.25 rounded-2xl border-3 border-purple-400 flex justify-center items-center text-[18px]
+    }
+     .listicon {
+  @apply w-15 h-15 rounded-2xl border border-amber-50 bg-gray-800 flex justify-center items-center text-4xl text-blue-100
+   hover:shadow-[0_0_10px_3px_#c084fc]
+  hover:border-purple-400;
+}
+}
+
+
+@keyframes spanHaeder{
+     from {
+        bottom: -50px;
+        transform: rotate(0deg);
+    }
+
+    to {
+        bottom: 900px;
+        transform: rotate(360deg);
+    }
+}
+
+.animeHaeder{
+    @apply text-[18px] text-gray-400/40 absolute
+}
+
+/* @font-face {
+    font-family: "Playfair";
+    src: url("../font/Playfair-VariableFont_opsz,wdth,wght.ttf") format("truetype");
+    font-weight: 400 900;
+    font-style: normal;
+} */
