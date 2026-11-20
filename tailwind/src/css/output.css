@@ -861,8 +861,14 @@
     .lg\:gap-10 {
       gap: calc(var(--spacing) * 10);
     }
+    .lg\:ps-8 {
+      padding-inline-start: calc(var(--spacing) * 8);
+    }
     .lg\:ps-10 {
       padding-inline-start: calc(var(--spacing) * 10);
+    }
+    .lg\:pe-8 {
+      padding-inline-end: calc(var(--spacing) * 8);
     }
     .lg\:pe-10 {
       padding-inline-end: calc(var(--spacing) * 10);
