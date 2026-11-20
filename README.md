@@ -7,7 +7,7 @@ A modern web development project built with HTML, CSS, and Tailwind CSS.
 ## 🔗 Live Demo
 
 You can view the live demo here:  
-👉 [View Live Demo]( https://zahra-gharezade.github.io/TAILWIND/)
+👉 [View Live Demo](https://zahra-gharezade.github.io/TAILWIND/)
 
 *(Note: Replace `YOUR-USERNAME` in the URL above with your GitHub username.)*
 
