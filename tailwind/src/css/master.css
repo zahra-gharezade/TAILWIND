@@ -15,7 +15,7 @@
 }
 
 .toplin {
-    @apply text-[60px] font-bold
+    @apply text-[50px] font-bold
     bg-linear-[90deg,#c084fc,#93c5fd]
     bg-clip-text text-transparent;
 }
@@ -25,7 +25,7 @@
 }
 
 .boxGray{
-  @apply w-full max-w-none lg:w-[200px]
+  @apply w-full max-w-none lg:w-full
   h-fit rounded-3xl border border-amber-50
   bg-gray-800 text-white p-8
   transition-all duration-500
@@ -47,7 +47,7 @@
     *:nth-[1]:*:nth-[2]:rounded-full /* 2 */ *:nth-[2]:my-4 *:nth-[2]:text-blue-300 *:nth-[2]:text-[32px]
     *:nth-[2]:text-start /*3*/ *:nth-[3]:text-purple-500 /*4*/  *:nth-[4]:text-white /* 5 */   *:nth-[5]:bg-gray-950
      *:nth-[5]:w-full *:nth-[5]:p-10 *:nth-[5]:rounded-2xl *:nth-[5]:border-l-amber-50 *:nth-[5]:border-l
-    *:nth-[5]:my-6 *:nth-[5]:*:text-white *:nth-[5]:*:leading-10 /* 6 */  *:nth-[6]:flex *:nth-[6]:justify-center *:nth-[6]:justify-start *:nth-[6]:w-full
+    *:nth-[5]:my-6 *:nth-[5]:*:text-white *:nth-[5]:*:leading-10 /* 6 */  *:nth-[6]:flex *:nth-[6]:flex-wrap *:nth-[6]:justify-center  *:nth-[6]:justify-start *:nth-[6]:w-full
     w-fit *:nth-[6]:*:p-3 *:nth-[6]:*:rounded-2xl *:nth-[6]:*:bg-gray-950 *:nth-[6]:*:border-amber-50/50 *:nth-[6]:*:border *:nth-[6]:gap-2
     *:nth-[6]:*:text-[14px]
 
